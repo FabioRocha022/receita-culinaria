@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+:root {
+    --cor-menu: #973838;
+    --font-logo: "Imperial Script", cursive, arial. sans-serif;
+    --font-geral:"Roboto Mono", monospace, arial, sans-serif; 
+    --cor-fundo: #e7d4b5;
+    --cor-letra: #200609;
+    --cor-destaque: #67161e;
+    --cor-titulo: #B12E2F;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-geral);
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--cor-menu);
+    width: 100%;
+}
+
+header h1 {
+    font-family: var(--font-logo);
+    color: #e9d0a9;
+    font-family:"Imperial Script";
+    font-size: 3.1em;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cor-fundo);
+}
+
+article {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.395);
+}
+
+section.resumo h2#titulo {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--cor-titulo);
+}
+
+hr {
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #67161e;
+}
+
+.geral {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.geral .material-symbols-outlined {
+    color:#67161e;
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.geral .quantidade {
+    align-self: right;
+}
+
+article p {
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: justify;
+    line-height: 1.7em;
+    color: var(--cor-letra);
+}
+
+.negrito {
+    font-weight: bolder;
+    color: var(--cor-destaque);
+}
+
+h3.subt {
+    color: var(--cor-titulo);
+    padding: 5px;
+}
+
+#mousse-img {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+section.igredi {
+    background-color: #f2d098;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+section.igredi h4{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    background-color: #B12E2F;
+    
+}
+
+section.igredi div {
+    display: block;
+    margin: 10px;
+}
+
+section#lista ol {
+    list-style-position: inside;
+}
+
+section#lista ol li {
+    margin: 10px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+p#tempo {
+    font-size: 0.8em;
+}
+
+p#final {
+    font-family: "Imperial Script", cursive, arial, sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--cor-menu);
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer span {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
