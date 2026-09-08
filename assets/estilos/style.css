@@ -27,6 +27,10 @@ header {
     width: 100%;
 }
 
+header nav {
+    display: none;
+}
+
 header h1 {
     font-family: var(--font-logo);
     color: #e9d0a9;
@@ -117,6 +121,10 @@ section.igredi h4{
     width: 100%;
     background-color: #B12E2F;
     
+}
+
+.subigredi{
+    margin: 0px;
 }
 
 section.igredi div {
